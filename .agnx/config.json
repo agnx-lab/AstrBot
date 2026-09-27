@@ -1,0 +1,10 @@
+{
+  "appId": "astrbot",
+  "installState": "installed",
+  "launchMode": "packaged",
+  "source": {
+    "kind": "github",
+    "url": "https://github.com/AstrBotDevs/AstrBot"
+  },
+  "updatedAt": "2026-09-27T00:30:00.000Z"
+}

@@ -138,3 +138,8 @@ path = "scripts/hatch_build.py"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+# Agnx 嵌入：旧 macOS（Ventura x86_64 等）无 faiss-cpu>=1.14 的兼容 wheel。
+# 详见 EMBED.md「faiss 降级说明」。新 macOS / Linux / Docker 仍可用 1.12 API 子集。
+[tool.uv]
+override-dependencies = ["faiss-cpu==1.12.0"]

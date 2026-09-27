@@ -1,0 +1,41 @@
+{
+  "id": "astrbot",
+  "name": "AstrBot",
+  "version": "0.1.0",
+  "description": "Agnx 外置子应用：AstrBot 整仓 + uv/Docker sidecar + Guest Dashboard",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./dist/index.js",
+  "icon": "./dashboard/public/favicon.svg",
+  "platforms": {
+    "desktop": "supported",
+    "web": "partial",
+    "mobile": "unsupported"
+  },
+  "sidecar": {
+    "supervised": true,
+    "ensureTool": ".agnx/tools/ensure-astrbot.mjs",
+    "stateFile": "astrbot.json",
+    "defaultPort": 6185
+  },
+  "guest": {
+    "kind": "web",
+    "auth": "none",
+    "preferStrategy": "auto"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "id": "astrbot.open",
+        "title": "AstrBot"
+      }
+    ],
+    "panels": [
+      {
+        "id": "astrbot.main",
+        "title": "AstrBot"
+      }
+    ]
+  }
+}
