@@ -1,5 +1,5 @@
 // 场景：AstrBot port / dataDir / runtimeMode / retain 经 host.config 落盘；面板 ensure 与详情共用。
-import type { WorkspaceAppConfigApi } from "@getagnx/app-sdk";
+import type { WorkspaceAppConfigApi } from "@agnx-lab/app-sdk";
 import {
   ASTRBOT_APP_ID,
   ASTRBOT_CONFIG_KEY,

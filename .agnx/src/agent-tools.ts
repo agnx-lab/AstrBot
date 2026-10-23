@@ -1,5 +1,5 @@
 // 场景：W4 — 极薄 Agnx Agent 工具：astrbot_health / astrbot_open；不镜像插件市场。
-import type { WorkspaceAppHostApi } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi } from "@agnx-lab/app-sdk";
 import {
   ASTRBOT_APP_ID,
   ASTRBOT_ENSURE_TOOL_REL,

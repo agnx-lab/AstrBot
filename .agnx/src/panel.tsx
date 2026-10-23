@@ -12,7 +12,7 @@ import { StyleSheet } from "react-native-unistyles";
 import type {
   WorkspaceAppBrandLogoLoaderPanelProps,
   WorkspaceAppHostApi,
-} from "@getagnx/app-sdk";
+} from "@agnx-lab/app-sdk";
 import {
   ASTRBOT_APP_ID,
   ASTRBOT_CONFIG_KEY,

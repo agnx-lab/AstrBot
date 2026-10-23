@@ -2,7 +2,7 @@
 import { createElement, useCallback, useEffect, useMemo, useState, type ReactElement } from "react";
 import { Text, TextInput, View, type TextStyle, type ViewStyle } from "react-native";
 import { useUnistyles } from "react-native-unistyles";
-import type { WorkspaceAppHostApi } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi } from "@agnx-lab/app-sdk";
 import { ASTRBOT_APP_ID, DEFAULT_ASTRBOT_PORT, type AstrBotRuntimeMode } from "./constants";
 import { getBoundHost } from "./host-bind";
 import {

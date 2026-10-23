@@ -1,5 +1,5 @@
 // 场景：AstrBot Sub App 入口 — 薄壳 + host.guest.mount + 详情配置 + 极薄 tools。
-import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@agnx-lab/app-sdk";
 import { AstrBotIcon } from "./astrbot-icon";
 import {
   ASTRBOT_APP_ID,
